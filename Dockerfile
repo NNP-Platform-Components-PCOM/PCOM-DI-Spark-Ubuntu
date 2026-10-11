@@ -1,9 +1,9 @@
 # syntax=docker/dockerfile:1.7
 #
 # PCOM-DI-Spark-Ubuntu
-# Pinned upstream image (docker.io/bitnamilegacy/spark:3.4.1) republished under the NNP Data Ingestion namespace.
+# Pinned upstream image (public.ecr.aws/bitnami/spark:3.4.1) republished under the NNP Data Ingestion namespace.
 
-FROM docker.io/bitnamilegacy/spark:3.4.1
+FROM public.ecr.aws/bitnami/spark:3.4.1
 
 ARG BUILD_DATE
 ARG VCS_REF
